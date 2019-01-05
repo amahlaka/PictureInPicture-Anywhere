@@ -1,6 +1,6 @@
 {
     "name": "PiP Anywhere",
-    "version": "0.1b",
+    "version": "1.0",
     "description": "Allows activating picture in picture mode from html5 players that block right click",
     "manifest_version": 2,
     "permissions": [
@@ -15,6 +15,5 @@
         "matches": ["https://tiwi.kiwi/*", "https://mp4upload.com/*", "https://streamango.com/*"],
         "js": ["content.js"],
         "all_frames": true
-    }
-]
+    }]
 }
