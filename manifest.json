@@ -12,8 +12,12 @@
     },
     "browser_action":{},
     "content_scripts": [{
-        "matches": ["https://www.netflix.com/watch/*","https://tiwi.kiwi/*", "https://mp4upload.com/*", "https://streamango.com/*"],
+        "matches": ["https://mp4upload.com/embed-*", "https://www.youtube.com/embed/*", "https://docs.google.com/file/d/*", "https://vidstreaming.io/streaming.php?id=*", "https://openload.co/embed/*", "https://aika.masterani.me/v/*", "https://vidstreaming.io/bk/streaming.php?id=*", "https://streamango.com/embed/*", "https://stream.moe/embed2/*", "https://tiwi.kiwi/embed-*", "https://www.rapidvideo.com/e/*", "https://embed.mystream.to/*"],
         "js": ["content.js"],
         "all_frames": true
+    },
+    {
+        "matches": ["https://www.masterani.me/anime/watch/*/*"],
+        "js": ["autoNext.js"]
     }]
 }
